@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="page-area">
+            <button class="reset">Again!</button>
+            <p>
+                Between 1 and 20
+            </p>
+        </div>
+        <div class="page-area">
+            <p class="text">Guess My Number!</p>
+        </div>
+        <div class="page-area">
+            <div class="number-area">
+                <p class="number">?</p>
+            </div>
+        </div><br><br>
+        <div class="page-area">
+            <div class="control-input-area">
+                <input type="number" class="control-input" min="1" max="20">
+                <button class="check">C h e c k !</button>
+            </div>
+            <div class="result-area">
+                <div class="result" id="message">Guess What?</div>
+                <div class="result">Score: <p class="score"></p>
+                </div>
+                <div class="result">Highscore: <p class="highscore"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
